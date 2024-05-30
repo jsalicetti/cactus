@@ -30,7 +30,19 @@ img {
   left: 42%;
   font-size: x-large;
   color:white;
+
 }
+
+.cactusimg{
+    display:flex;
+    width: 55%;
+    height: 190%;
+    box-shadow: 10px 10px 10px black; 
+    border-radius: 15%;
+    border-color:black ;
+    
+}
+
 
 .card1:hover {
 cursor: pointer;
@@ -45,6 +57,16 @@ font-size: x-large;
 color:white;
 }
 
+.moonimg {
+  
+    display:flex;
+    width: 215px;
+    height: 222px;
+    box-shadow: 10px 10px 10px black; 
+    border-radius: 15%;
+    border-color:black ;
+}
+
 .bunny {
   position: absolute;
   top: 60%;
@@ -53,12 +75,30 @@ color:white;
   color:white;
 }
 
+.bunnyimg {
+    display:flex;
+    width: 220px;
+    height: 222px;
+    box-shadow: 10px 10px 10px black; 
+    border-radius: 15%;
+    border-color:black ;
+}
+
 .organP {
   position:absolute;
   top: 150%;
   right: 10%;
   color:white;
   font-size: x-large;
+}
+
+.organimg {
+    display:flex;
+    width: 225px;
+    height: 230px;
+    box-shadow: 10px 10px 10px black; 
+    border-radius: 15%;
+    border-color:black ;
 }
 
 .saguaro {
