@@ -1,21 +1,70 @@
-body {
-  background-image: url(https://media.istockphoto.com/id/1296913338/photo/sonoran-sunset.jpg?s=612x612&w=0&k=20&c=lGXd-vnDmH_bCnR53BNmwxsh3qn8MBLQoh5M926QAbY=);
-      object-fit: cover;
-        font-family: "jazz let", fantasy;
-        height
-        justify-content: center;
-        display: flex;
-      }
 
-img {
-width: 550%;
-height: 1000px;
-text-align: center;
+.background-image {
+  background-image: url(https://media.istockphoto.com/id/1296913338/photo/sonoran-sunset.jpg?s=612x612&w=0&k=20&c=lGXd-vnDmH_bCnR53BNmwxsh3qn8MBLQoh5M926QAbY=);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
-.c1 {
+img {
+  height: 1200px;
+  width: 100%;
+}
+
+.title {
+  position:absolute;
   text-align: center;
-  color:white
-  font-family: "jazz let", fantasy;
-  background-color: 
+  color:white;
+  top: 5%;
+  left:60%;
+  font-size: xx-large;
+}
+
+.thimble {
+  
+  position: absolute;
+  top: 60%;
+  left: 42%;
+  font-size: x-large;
+  color:white;
+}
+
+.card1:hover {
+cursor: pointer;
+transform:rotateY(180deg);
+}
+
+.moon {
+  position: absolute;
+  top: 60%;
+  left: 80%;
+font-size: x-large;
+color:white;
+}
+
+.bunny {
+  position: absolute;
+  top: 60%;
+  right: 80%;
+  font-size: x-large;
+  color:white;
+}
+
+.organP {
+  position:absolute;
+  top: 150%;
+  right: 10%;
+  color:white;
+  font-size: x-large;
+}
+
+.saguaro {
+  position:absolute;
+  top: 150%;
+  left: 10%;
+  color:white;
+  font-size: x-large;
 }
