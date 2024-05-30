@@ -1,0 +1,21 @@
+body {
+  background-image: url(https://media.istockphoto.com/id/1296913338/photo/sonoran-sunset.jpg?s=612x612&w=0&k=20&c=lGXd-vnDmH_bCnR53BNmwxsh3qn8MBLQoh5M926QAbY=);
+      object-fit: cover;
+        font-family: "jazz let", fantasy;
+        height
+        justify-content: center;
+        display: flex;
+      }
+
+img {
+width: 550%;
+height: 1000px;
+text-align: center;
+}
+
+.c1 {
+  text-align: center;
+  color:white
+  font-family: "jazz let", fantasy;
+  background-color: 
+}
