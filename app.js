@@ -44,5 +44,30 @@ data.forEach(element => {
     sandDiv.appendChild(parentDiv);
 })
 
-form 
+let form = document.createElement('form');
+
+let inputName = document.createElement('input');
+inputName.type = 'text';
+inputName.name = 'userName';
+inputName.placeholder = 'Name';
+
+let inputEmail = document.createElement('input');
+inputEmail.type = 'email';
+inputEmail.name = 'userEmail';
+inputEmail.placeholder = 'Email';
+
+let buttonSubmit = document.createElement('input');
+buttonSubmit.type = 'submit';
+buttonSubmit.value = 'Submit';
+
+form.appendChild(inputName);
+form.appendChild(inputEmail);
+form.appendChild(buttonSubmit);
+
+document.body.appendChild(form);
+
+form.addEventListener("submit",(event)=>{ 
+    event.preventDefault()
+    alert ("Thank you!")
+});
 
